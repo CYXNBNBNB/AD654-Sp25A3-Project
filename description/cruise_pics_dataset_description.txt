@@ -1,0 +1,41 @@
+Dataset: cruise_pics.csv
+
+This dataset contains results from an A/B test conducted by Lobster Land to evaluate the performance of four different promotional cruise-themed images. Each row represents an email recipient's interaction with a randomly assigned photo. The dataset includes behavioral, rating, and demographic-like engagement indicators to support exploratory and statistical analysis.
+
+Variable Descriptions:
+
+1. photo:
+   The promotional image shown in the email. One of four options:
+   "Night Glow", "Caribbean Port", "City Visit", or "Tropical Beach".
+
+2. clicked:
+   Binary indicator (1 = clicked, 0 = did not click) of whether the user clicked the image in the email.
+
+3. time_on_page:
+   Number of seconds the user spent on the landing page after clicking (if clicked).
+
+4. num_followup_clicks:
+   The number of additional interactions (e.g., clicks on cruise info, excursions, or links) after the initial click.
+
+5. rating_of_photo:
+   The user鈥檚 rating of the photo, on a 1鈥�10 scale, with variation across images.
+
+6. interest_score:
+   A composite engagement metric computed from the other variables, used to estimate total user interest. It combines clicks, time on page, follow-up clicks, and rating into a weighted score.
+
+7. device_type:
+   Categorical variable for the type of device used to view the email: "mobile", "desktop", or "tablet".
+
+8. time_of_day:
+   The general time period when the user opened the email: "morning", "afternoon", or "evening".
+
+9. booked_info_session:
+   Binary indicator of whether the user booked a follow-up information session after engaging with the content.
+
+10. shared_email:
+    Binary indicator of whether the user shared the email with someone else.
+
+11. saved_photo:
+    Binary indicator of whether the user downloaded or saved the photo from the email.
+
+This dataset is designed to support analysis of user engagement, conversion funnel behavior, and promotional effectiveness for campaign optimization.

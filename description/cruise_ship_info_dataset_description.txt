@@ -1,0 +1,34 @@
+Dataset: cruise_ship_info.csv
+
+This dataset provides technical and operational specifications for a collection of cruise ships across various cruise lines. Each row represents a unique ship and includes data related to ship size, capacity, and staffing.
+
+Variable Descriptions:
+
+1. Ship_name:
+   The name of the cruise ship.
+
+2. Cruise_line:
+   The cruise company or brand operating the ship (e.g., Carnival, Azamara, Royal Caribbean).
+
+3. Age:
+   The age of the ship in years at the time of data collection.
+
+4. Tonnage:
+   The gross tonnage of the ship, a measure of the ship's overall internal volume.
+
+5. passengers:
+   The average number of passengers the ship is designed to carry under normal occupancy conditions.
+
+6. length:
+   The overall length of the ship, usually measured in hundreds of feet or meters depending on source format.
+
+7. cabins:
+   The number of cabins available for guest accommodations onboard.
+
+8. passenger_density:
+   A measure of the number of passengers per tonnage of the ship (passengers / tonnage), often used to infer crowding levels.
+
+9. crew:
+   The total number of onboard crew members assigned to the ship.
+
+This dataset is useful for fleet comparison, operational planning, cruise industry benchmarking, and machine learning applications like classification and clustering (e.g., predicting cruise line based on ship characteristics).

@@ -1,0 +1,48 @@
+Dataset: Caribbean Cruise Ports
+
+Variable Descriptions:
+
+1. port_id:
+   A unique identifier for each cruise port. In this version, it's a numeric code (e.g., "001") with no prefix. 
+
+2. port_name:
+   The name of the cruise port, often corresponding to a well-known tourist destination.
+
+3. country_or_territory:
+   The nation or territory where the cruise port is located.
+
+4. region:
+   A broad classification of the port鈥檚 geographic location in the Caribbean, such as "Western" or "Eastern."
+
+5. port_type:
+   A category describing the port's primary purpose or theme (e.g., "Private," "Major," or "Eco/Nature").
+
+6. latitude:
+   Geographic latitude of the port in decimal degrees, used for spatial analysis or mapping.
+
+7. longitude:
+   Geographic longitude of the port.
+
+8. avg_annual_visitors:
+   The average number of cruise ship passengers visiting the port annually.
+
+9. avg_port_fee_usd:
+   The average port fee (in U.S. dollars) charged to cruise lines for docking.
+
+10. local_attractions_score:
+    A score estimating the variety and appeal of local attractions near the port, expressed on a scale from 1 to 10.
+
+11. avg_customer_satisfaction:
+    The average satisfaction score reported by passengers, given on a 1 to 10 scale. 
+
+12. excursion_variety_index:
+    A score indicating the number and diversity of shore excursions available at the port.
+
+13. avg_disembark_rate:
+    The average proportion of cruise passengers who disembark at the port. Values range from 0 to 1
+
+14. avg_shore_spend_per_passenger:
+    The average dollar amount spent by each passenger while ashore. 
+
+15. seasonality_score:
+    A score capturing how seasonal the port鈥檚 visitor traffic is. Higher scores indicate greater seasonality.

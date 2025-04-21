@@ -1,0 +1,38 @@
+Dataset: voyage_options.csv
+
+This dataset captures customer evaluations of different cruise voyage experiences. Each row corresponds to a unique combination of voyage features鈥攅ntertainment, dining, cabin accommodations, and amenities鈥攁long with optional cocktail credits and a customer-generated average rating. The dataset is ideal for conjoint analysis, preference modeling, and simulation of product design tradeoffs.
+
+Variable Descriptions:
+
+1. entertainment:
+   This column indicates the primary entertainment offering available during the voyage. Entertainment types range from cultural and relaxing to high-energy and dance-focused:
+   - "East Coast Folk": Live music performances featuring traditional maritime and folk sounds from the Northeastern U.S.
+   - "Jazz Blues": A sultry blend of live jazz and blues ensembles performed nightly in elegant lounges.
+   - "DJ Dance": A high-energy nightclub experience featuring top DJs and modern lighting effects.
+   - "Acoustic Showcase": Intimate and unplugged performances by singer-songwriters in a cozy venue.
+
+2. dining:
+   Represents the primary culinary experience included in the voyage. Dining styles appeal to various taste profiles and formality preferences:
+   - "Maine Lobster Nova Scotia Seafood Buffet": A premium buffet featuring fresh lobster, scallops, clams, and other North Atlantic seafood specialties.
+   - "Formal Multi-Course Plated": A white-tablecloth dining experience with multiple gourmet courses and wine pairings.
+   - "Casual Fireside Grill with Hot Cider": A rustic, open-air grill station serving hearty, warm comfort foods with seasonal beverages.
+   - "Coastal Tapas & Tasting Stations": A lively venue offering small-plate coastal dishes inspired by Caribbean and Mediterranean flavors.
+
+3. cabin:
+   Specifies the style of guest accommodations. These vary in ambiance and amenities:
+   - "Cozy with Fireplace": A cabin designed for warmth and charm, complete with a faux fireplace and soft lighting.
+   - "Modern Minimalist": A sleek, contemporary design emphasizing clean lines and neutral tones.
+   - "Romantic Escape": Features mood lighting, luxurious linens, and a balcony built for two鈥攑erfect for couples.
+   - "Nautical Chic": Decorated with maritime themes, this cabin balances traditional seafaring style with upscale comfort.
+
+4. amenities:
+   Describes onboard extras available to guests that enhance relaxation and leisure:
+   - "Top Deck Hot Tubs": Rooftop hot tubs with panoramic ocean views, open day and night.
+   - "Winter Wellness Spa": A full-service wellness retreat with saunas, massages, and skincare treatments.
+   - "Fireside Live Music": Evening music sessions held around a faux fireplace lounge, ideal for winding down.
+
+5. cocktail_credits:
+   An optional incentive provided with the voyage鈥攖his indicates how many free cocktail credits are included. These credits can be redeemed at any bar onboard and add value to the experience, particularly for guests who enjoy socializing or trying specialty drinks.
+
+6. avg_rating:
+   The average customer rating (on a 1 to 10 scale) given to the specific combination of voyage features. These ratings were collected from survey respondents asked to evaluate the overall appeal of each voyage option, considering all its components.

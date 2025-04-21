@@ -1,0 +1,67 @@
+Dataset: cruise_cancellation.csv
+
+This dataset is based on passenger data.  It was prepared for Lobster Land, with the goal of predicting cruise booking cancellations.
+Each row represents a single booking made by a passenger. The dataset includes demographic, behavioral, and booking-related attributes.
+
+Variable Descriptions:
+
+1. age:
+   Passenger's age in years.
+
+2. booking_lead_time:
+   Number of days between the booking date and the cruise departure date.
+
+3. trip_length:
+   Duration of the cruise in days (commonly 3, 5, 7, 10, or 14 days).
+
+4. cabin_type:
+   Type of cabin booked. Categories: "Interior", "Oceanview", "Balcony", "Suite".
+
+5. group_size:
+   Total number of people in the booking group (including the passenger).
+
+6. loyalty_status:
+   Customer's loyalty tier. One of: "None", "Silver", "Gold", "Platinum".
+
+7. paid_in_full:
+   Binary indicator (1 = booking was paid in full, 0 = partially paid).
+
+8. prior_cruises:
+   Number of cruises previously taken by the passenger.
+
+9. customer_income:
+   Estimated annual household income (in USD).
+
+10. email_engagement_score:
+    Engagement score from email marketing (scaled from 0 to 1).
+
+11. phone_verified:
+    Binary indicator (1 = phone number verified, 0 = not verified).
+
+12. has_insurance:
+    Binary indicator (1 = passenger purchased travel insurance, 0 = did not).
+
+13. on_mailing_list:
+    Binary indicator (1 = subscribed to Lobster Land鈥檚 mailing list, 0 = not subscribed).
+
+14. website_visits_last_month:
+    Number of times the passenger visited the cruise website in the 30 days prior to the voyage.
+
+15. survey_participation:
+    Indicates whether the customer has completed a customer experience survey.
+    Options: "Yes", "No", "Partial".
+
+16. preferred_contact_method:
+    How the customer prefers to be contacted: "Email", "Phone", or "Text".
+
+17. travel_history_score:
+    A score (0鈥�100) based on travel history, loyalty, and recent activity.
+
+18. referral_source:
+    Where the customer heard about the cruise provider. One of: "Friend", "Ad", "Social Media", "Search Engine".
+
+19. gift_certificate_used:
+    Binary indicator (1 = gift certificate was used, 0 = no gift certificate).
+
+20. canceled:
+    Target variable. Binary outcome (1 = booking was canceled, 0 = not canceled).
